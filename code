@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Edyoda Stories Blog Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    
+</head>
+<style>  
+  header{
+    background-color: #fff;
+    padding: 16px 78px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 4px whitesmoke;
+  }
+  .logo{
+    margin-right: 50px;
+  }
+  .logos1 h1{ 
+    color: #0084ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 0cm;
+
+  }
+.word{
+margin: 0;
+font-weight: 500;
+font-family: raleway;
+font-style: italic;
+width: 130px;
+font-size: 20px;
+}
+.container{
+margin-left: 160px;
+}
+.fa-filter{
+color: #0084ff;
+}
+.filter{
+     margin-left:60px;
+     margin-bottom:14px;
+     font-weight:600;
+    font-size:12px;
+}
+.buttons{
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 6px;
+}
+#select{
+background-color: #0084ff;
+color: white;
+}
+.buttons .btn{
+padding: 3px 10px;
+margin: 2px 4px;
+border-radius: 20px;
+border: 1px solid #0084ff;
+color: #0084ff;
+background-color: #F2F6FF;
+cursor: pointer;
+}
+.buttons .btn:hover{
+background-color: #0084ff;
+color: white;
+}
+.items{
+display: flex;
+flex-wrap: wrap;
+margin-left: 165px;
+border-radius: 40px ;
+width: 100%;
+}
+.item-1{
+width: 25%;
+box-shadow: 0px 2px 2px #a8d5ff;
+margin: 10px 10px;
+flex-wrap: wrap;
+}
+.item-image{
+height: 176px;
+width: 100%;
+}
+.image{
+
+height: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.title{
+font-size: 18px;
+text-align: left;
+margin: 0cm;
+font-weight: 600;
+}
+.author-container{
+padding-top: 4px;
+display: flex;
+color: #0096ff;
+}
+.author{
+font-size: 14px;
+font-style: italic;
+font-weight: 500;
+}
+.date{
+color: rgba(0,0,0,0.7);
+font-size: 14px;
+font-weight: 300;
+padding-top: 4px;
+padding-left: 5px;
+}
+.info{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.43;
+color: rgba(0,0,0,0.6);
+margin: 4px 0;
+}
+#set{
+padding: 0.5cm 0.5cm;
+}
+.footer{
+background-color: #172146;
+padding: 80px 16%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.company{
+  color: white;
+}
+</style>
+<body>
+    <header>
+      <div class="logo">
+        <span class="logos1"><h1><b>EDYODA</b></h1></span>
+        <p class="word">Stories</p>
+      </div>
+      <div class="explore">
+        <span class="explore-text">Explore Categories</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+        </div>
+    </header>
+    <main class="container">
+      <h2>Trending Posts</h2>
+    </div>
+  </div class="filter">
+  <div><i class="fa fa-filter"></i>  Filter by Category<br></div>
+  
+     
+    <br>
+  </div>
+  <div class="buttons">
+    <button class="btn" id="select">All</button>
+    <button class="btn">Artificial Intelligence</button>
+    <button class="btn">Cloud Computing</button>
+    <button class="btn">Devops</button>
+    <button class="btn">Programming Languages</button>
+    <button class="btn">Mobile Application Development</button>
+    <button class="btn">Technology and Tools</button>
+    <button class="btn">Get a Job in a Tech Company</button>
+    <button class="btn">Others</button>
+ </div>
+</div>
+    </main>
+    <br>
+ <div class="items">
+    <div class="item-1">
+      <div class="item-image">
+        <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png">
+      </div>
+      <div id="set">
+      <b class="title">Introduction To A Machine Learning</b>
+      <div class="author-container">
+        <p class-="author">Edyoda</p>
+        
+        <p class="date">| 23 Aug 2019</p>
+      </div>
+      <div class="info-container">
+        <p class="info">We have had an insight into Artificial Intelligence. Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what a machine learning online course holds. To begin with, one must understand what machine learning is.</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="item-1">
+      <div class="item-image">
+        <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/learn-artificial-intelligence_E1bep5u.jpeg">
+      </div>
+      <div id="set">
+      <b class="title">Well how begin using artificial intelligence</b>
+      <div class="author-container">
+        <p class-="author">Edyoda</p>
+        
+        <p class="date"> | 08 Jul 2019</p>
+      </div>
+      <div class="info-container">
+        <p class="info">We’re rapidly moving towards a day and age where almost everything can be controlled by machines and one of the most revolutionary moves has been the advent of artificial intelligence. In this artificial intelligence course, we will talk about how to get started with AI and what exactly it is. While it began as a part of smartphones and other smart devices, AI has been increasingly taking over in other fields too. </p>
+      </div>
+    </div>
+    </div>
+
+    <div class="item-1">
+      <div class="item-image">
+        <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/3_Qbv1T8k.png">
+      </div>
+      <div id="set">
+      <b class="title">Analytics with Big Data and Machine Learning</b>
+      <div class="author-container">
+        <p class-="author">Edyoda</p>
+        
+        <p class="date"> | 24 Aug 2019</p>
+      </div>
+      <div class="info-container">
+        <p class="info">Machine Learning is a subset of artificial intelligence which is an important part of computer science. The revolution of Big Data promises to transform the way we work, live and think by enabling the process of optimization, discovering insights and improved decision making.</p>
+      </div>
+    </div>
+    </div>
+
+<div class="item-1">
+      <div class="item-image">
+        <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/data-mining-an-overview_8O9fl2t.jpg">
+      </div>
+      <div id="set">
+      <b class="title">Data Mining: An overview </b>
+      <div class="author-container">
+        <p class-="author">Edyoda</p>
+        
+        <p class="date">| 21 Jul 2019</p>
+      </div>
+      <div class="info-container">
+        <p class="info">The process used by companies to convert raw data into useful information is called Data Mining. It is a process of searching, collecting, filtering and analyzing the data. A large amount of data can be retrieved from various websites and databases. It can be retrieved in the form of data relationships, correlations, and patterns.</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="item-1">
+      <div class="item-image">
+        <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/7_WsnOXes.png">
+      </div>
+      <div id="set">
+      <b class="title">IT sector data backup and recovery</b>
+      <div class="author-container">
+        <p class-="author">Edyoda</p>
+        
+        <p class="date">| 23 Aug 2019</p>
+      </div>
+      <div class="info-container">
+        <p class="info">A business must always introspect the areas where they lack in order to bring about a positive change in the work environment. One of the main precautions or a contingency plan that is necessary for every business and especially industries working with clouds, networks and computers should conduct a backup of its files which will serve as a boon in any point of time. </p>
+      </div>
+    </div>
+    </div>
+    <div class="item-1">
+      <div class="item-image">
+        <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png">
+      </div>
+      <div id="set">
+      <b class="title">LAMP Stack Vs MEAN Stack</b>
+      <div class="author-container">
+        <p class-="author">Edyoda</p>
+        
+        <p class="date">| 23 Aug 2019</p>
+      </div>
+      <div class="info-container">
+        <p class="info">In today’s dynamic world, rapid web application development with a smooth user interface that can adapt to specific features is the main business requirement. Many organizations around the world that intensely depend on programming for their everyday business operations</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <h2 class="company">Suresh @ Assignment 2</p>
+
+      </div>
+  </footer>
+</body>
+</html>
